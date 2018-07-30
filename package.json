@@ -1,10 +1,10 @@
 {
-  "name": "hanikestore",
+  "name": "typescript-vue-starter",
   "version": "1.0.0",
-  "description": "Pharmasave online store - Blessed by God",
+  "description": "",
   "productName": "Online Store",
   "private": true,
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "watch:dev": "cross-env APP_ENV=dev webpack --watch --log-level=debug",
     "build:dev": "cross-env APP_ENV=dev webpack --colors --progress --log-level=debug --display-error-details --display-modules",
