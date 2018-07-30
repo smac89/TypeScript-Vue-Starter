@@ -12,11 +12,16 @@
         "indent": [
             true
         ],
+        "ordered-imports": [
+            true, {
+                "import-sources-order": "lowercase-first",
+                "named-imports-order": "lowercase-first"
+            }
+        ],
         "interface-name": [
             false
         ],
         "arrow-parens": false,
-        // Pending fix for shorthand property names.
         "object-literal-sort-keys": false
     },
     "rulesDirectory": []

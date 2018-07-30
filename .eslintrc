@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "indent": ["error", 2],
+    "sort-imports": ["error", {
+      "ignoreCase": true,
+      "memberSyntaxSortOrder": ["all", "none", "single", "multiple"]
+    }],
+    "object-curly-spacing": ["error", "always", {
+      "arraysInObjects": false,
+      "objectsInObjects": true
+    }]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
+}
